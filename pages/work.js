@@ -12,7 +12,7 @@ export default function work() {
 
             </div>
             <div className='workhead'>
-                <p className='work'>A selected set of projects I've built with individuals and team.</p>
+                <p className='work'>A selected set of projects I have built with individuals and team.</p>
                 <p className='work'>This is a mix of personal , collaborative and client owned projects</p>
             </div>
             <div className='mt-14'>

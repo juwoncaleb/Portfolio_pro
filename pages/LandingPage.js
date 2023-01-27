@@ -36,7 +36,7 @@ export default function LandingPage() {
 
           </div>
 
-          <p className='tag_1_text mt-20'>When I am not building or exploring new WEB experience , I'M probably</p>
+          <p className='tag_1_text mt-20'>When I am not building or exploring new WEB experience , I am probably</p>
           <p className='tag_1_text '>Trashing my lil cousin in FIFA or at the gym training people </p>
           
           <div className='mt-14 more'>
