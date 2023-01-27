@@ -1,0 +1,630 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.port {
+    background-color: #000000;
+    color: white;
+}
+
+.header {
+    font-family: Archivo;
+    font-weight: 600;
+    margin-left: 4%;
+    margin-right: 4%;
+
+}
+
+.boldskill {
+    font-weight: 600;
+}
+
+.hero_section {
+    font-family: Archivo;
+    font-weight: bolder;
+    font-size: 80px;
+    margin-left: 4%;
+    margin-right: 4%;
+    position: relative;
+    top: 50px;
+}
+
+.heroImg {
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: 20px;
+}
+
+.jokesSection {
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 100px;
+}
+
+.jokes {
+    font-family: Archivo;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+
+}
+
+.arrow {
+    height: 60px;
+}
+
+
+.name {
+    font-family: Archivo;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.aboutMe {
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 110px;
+    margin-bottom: 60px;
+    font-family: Archivo;
+    text-transform: uppercase;
+}
+
+.accomplishment {}
+
+.aboutMee {
+    font-size: 20px;
+    text-align: center;
+    margin-left: 4%;
+    margin-right: 4%;
+    font-size: 20px;
+    margin-top: 100px;
+    font-family: Archivo;
+    text-transform: uppercase;
+}
+
+.goal {
+    text-align: left;
+    display: block;
+
+}
+
+.goalHeader {
+    margin-left: auto;
+    font-weight: 600;
+    margin-top: 160px;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.mob {
+    width: 250px;
+    /* Or 600px instead of percentager value */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.tag_1 {
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.expansion {
+    font-size: 20px;
+    margin-top: 150px;
+    font-family: Archivo;
+
+
+}
+
+.project_text {
+    font-size: 15px;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-transform: uppercase;
+
+}
+
+.tag_1_text {
+    font-size: 25px;
+
+
+}
+
+.intro {
+    text-align: justify;
+
+}
+
+.aboutMail {
+    color: #000000;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.projcontent{
+    background-color: #000000;
+    color: white;
+}
+.s1 {
+    margin-top: 100px;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.workk {
+    background-color: black;
+    color: white;
+}
+
+.line {
+    border: 2px white solid;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+.more {
+    display: block;
+}
+
+.project_header {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: Archivo;
+    font-size: 20px;
+    margin-top: 150px;
+    font-weight: 600;
+
+}
+.livelinks{
+    font-family: Archivo;
+  
+}
+
+.lac {
+    width: 600px;
+}
+
+.projects {
+    margin-top: 170px;
+}
+
+.lacProject {
+    font-family: Archivo;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.lacHead {
+    font-weight: 600;
+    font-family: Archivo;
+    font-size: 80px;
+}
+
+.forward {
+    width: 40px;
+    margin-left: 20px;
+    position: relative;
+    bottom: 5px;
+}
+
+.view {
+    font-weight: 600;
+}
+
+.project2 {
+    margin-top: 130px;
+}
+
+.bike {
+    width: 450px;
+}
+
+.images {
+    margin-left: 9%;
+    margin-right: 9%;
+
+}
+
+.gym {
+    height: 400px;
+}
+
+.friends {
+    height: 500px;
+    margin-top: 50px;
+}
+
+.info {
+    font-family: Archivo;
+    font-size: 20px;
+}
+
+.falomo {
+    height: 600px;
+}
+
+.aboutMe {
+    font-family: Archivo;
+    font-size: 15px;
+    text-align: center;
+}
+
+.lexa {
+    font-family: Archivo;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.languages {
+    font-weight: 600;
+}
+
+.expansion {
+    text-align: center;
+}
+
+.kunle {
+    color: #fa0000;
+}
+
+.staff {
+    display: block;
+    width: 60%;
+    /* Or 600px instead of percentager value */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project {
+    font-family: Archivo;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.framewrk {
+    margin-left: 10%;
+    font-family: Archivo;
+    margin-top: 250px;
+    margin-bottom: 250px;
+
+}
+
+h1 {
+    --s: 0.1em;
+    /* the thickness of the line */
+    --c: #fa0000;
+    /* the color */
+    font-family: Archivo;
+    color: white;
+    padding-bottom: var(--s);
+    background:
+        linear-gradient(90deg, var(--c) 50%, rgb(241, 237, 237) 0) calc(100% - var(--_p, 0%))/200% 100%,
+        linear-gradient(var(--c) 0 0) 0% 100%/var(--_p, 0%) var(--s) no-repeat;
+    -webkit-background-clip: text, padding-box;
+    background-clip: text, padding-box;
+    transition: 0.5s;
+}
+
+h1:hover {
+    --_p: 100%
+}
+
+
+
+h1 {
+    font-size: 3.7rem;
+    cursor: pointer;
+}
+
+.contact {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.work {
+    text-align: center;
+    font-family: Archivo;
+    font-size: 27px;
+}
+
+.workhead {
+    margin-bottom: 200px;
+
+}
+
+.headproject {
+    margin-top: 140px;
+    margin-bottom: 40px;
+}
+
+.message {
+    margin-top: 140px;
+    text-align: center;
+    font-family: Archivo;
+    font-size: 27px;
+}
+
+.socials {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 85px;
+    font-family: Archivo;
+
+}
+
+.project {
+    display: grid;
+    place-items: center
+}
+
+.constact {
+    background-color: black;
+    color: white;
+}
+
+.proj1 {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.proj1_Text {
+    text-align: center;
+    text-align: justify;
+
+}
+
+/* RESPONSIVNESS */
+@media only screen and (max-width: 768px) {
+    .build{
+        display: none;
+    }
+    h1 {
+        font-size: 2.2rem !important;
+        cursor: pointer;
+    }
+    .socials {
+        text-align: center;
+        margin-top: 100px;
+        font-size: 60px;
+        font-family: Archivo;
+    }
+
+    .work {
+        text-align: center;
+        font-family: Archivo;
+        font-size: 20px;
+    }
+
+    .hero_section {
+        font-family: Archivo;
+        font-weight: bolder;
+        font-size: 60px;
+        margin-left: 4%;
+        margin-right: 4%;
+        margin-bottom: 40px;
+        position: relative;
+        top: 50px;
+    }
+
+    .header {
+        font-family: Archivo;
+        font-weight: 600;
+        margin-left: 4%;
+        margin-right: 4%;
+        font-size: 15px;
+
+    }
+
+    .name {
+        display: none;
+    }
+
+    .framewrk {
+        margin-left: 10%;
+        font-family: Archivo;
+        margin-top: 100px;
+        margin-bottom: 250px;
+
+    }
+
+    .lac {
+        margin-left: 60px;
+    }
+
+}
+
+@media only screen and (max-width: 425px) {
+    h1 {
+        font-size: 1.6rem !important;
+        cursor: pointer;
+    }
+    .hero_section {
+        font-size: 30px;
+    }
+
+    .socials {
+        text-align: center;
+        margin-top: 100px;
+        font-size: 45px;
+        font-family: Archivo;
+    }
+}
+
+@media only screen and (max-width:882px) {
+    .proj {
+        display: grid;
+    }
+}
+
+.project {
+    font-size: 20px !important;
+}
+
+@media only screen and (max-width:425px) {
+    .lac {
+        width: 300px !important;
+        margin-right: 20px !important;
+    }
+
+    .project_header {
+        margin-left: 10%;
+        margin-right: 10%;
+        font-family: Archivo;
+        font-size: 15px;
+        margin-top: 150px;
+        font-weight: 600;
+
+
+    }
+
+    .info {
+        font-size: 17px;
+    }
+
+    .lacProject {
+        font-size: 15px !important;
+    }
+
+    .arrow {
+        height: 40px;
+    }
+
+    .lacHead {
+        font-size: 30px !important;
+    }
+
+    .jokes {
+        font-family: Archivo;
+        font-size: 13px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+
+    .tag_1_text {
+        font-size: 15px;
+    }
+
+    .tag_1 {
+        font-size: 15px;
+
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    h1 {
+        font-size: 3rem;
+        cursor: pointer;
+    }
+    .falomo {
+        width: 400px;
+    }
+
+    .lac {
+        width: 400px;
+        margin-top: 50px;
+    }
+
+    .name {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .lacHead {
+        font-weight: 600;
+        font-family: Archivo;
+        font-size: 50px;
+        margin-left: 50px;
+    }
+
+    .lacProject {
+        font-family: Archivo;
+        font-size: 18px;
+        text-transform: uppercase;
+        margin-left: 50px;
+
+    }
+}
+
+.accomplishment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+@media only screen and (max-width: 608px) {
+    .proj1 {
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 150px;
+        margin-bottom: 150px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    h1 {
+        font-size: 1.3rem !important;
+        cursor: pointer;
+    }
+    .proj1 {
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 150px;
+        margin-bottom: 150px;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .aboutMee {
+        font-size: 4px !important;
+        text-align: center;
+        margin-left: 4%;
+        margin-right: 4%;
+        font-size: 20px;
+        margin-top: 100px;
+        font-family: Archivo;
+        text-transform: uppercase;
+    }
+
+    .expansion {
+        font-size: 14px;
+    }
+
+    .lexa {
+        font-size: 24px !important;
+    }
+
+    .accomplishment {
+        display: grid !important;
+        font-family: Archivo;
+
+    }
+
+    .mob {
+        width: 170px;
+        /* Or 600px instead of percentager value */
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+    }
+
+    .s1 {
+        width: 300px;
+    }
+}
