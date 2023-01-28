@@ -22,9 +22,9 @@ export default function project1() {
                     Authentication and Authorization was handled with Next Auth, and google auth was used for this . Image was stored in cloudinary , this reduced the load on the server</p>
 
             </div>
-            <div className='flex justify-center livelinks'>
-                <p className='mr-20'>GITHUB</p>
-                <p>LIVE LINK</p>
+            <div className='flex justify-center livelinks '>
+                <a className='mr-10' href='https://github.com/juwoncaleb/store' >GITHUB</a>
+                <a href='https://lacostestore.vercel.app/' >LIVE LINK</a>
             </div>
         </div>
     )

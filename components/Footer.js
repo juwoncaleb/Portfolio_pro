@@ -5,14 +5,13 @@ export default function Footer() {
         <div>
             <div className='flex justify-between header '>
                 <p className='mt-8 mb-20'>Juwoncaleb</p>
-                <p className='mt-8 mb-20'>GITHUB
-                    
-                </p>
+                <a href='https://github.com/Juwoncaleb/'>GITHUB</a>
 
-                <p className='mt-8 mb-20'> LINKEDIN
-                </p>
 
-                <p className='mt-8 mb-20'>INSTAGRAM</p>
+                <a href='https://www.linkedin.com/in/soneye-omojuwon-01a30618a/'>LINKEDIN</a>
+
+
+                <a href='https://www.instagram.com/juwoncaleb/'>INSTAGRAM</a>
 
             </div>
         </div>

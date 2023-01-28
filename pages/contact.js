@@ -11,9 +11,10 @@ export default function contact() {
             <p className='message'>OR CONNECT WITH <br/> ME ON SOCIALS</p>
 
             <div className='socials'>
-                <p>TWITTER</p>
-                <p>INSTAGRAM</p>
-                <p>LINKEDIN</p>
+                <a href='https://twitter.com/juwoncaleb'>TWITTER</a>
+                <a href='https://www.instagram.com/juwoncaleb/'>INSTAGRAM</a>
+                <a href='https://github.com/Juwoncaleb/'>GITHUB</a>
+                <a href='https://www.linkedin.com/in/soneye-omojuwon-01a30618a/'>LINKEDIN</a>
             </div>
         </div>
     )

@@ -1,8 +1,12 @@
 import React from 'react'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
+import { useRouter } from 'next/router'
 
 export default function LandingPage() {
+
+  const router = useRouter()
+
   return (
     <div>
       <Header />
@@ -71,15 +75,16 @@ export default function LandingPage() {
         </div>
 
         <div className='projects'>
-          <div className='  flex proj justify-around'>
-            <div >
+          <div onClick={() => {
+                    router.push('/project1')}} className='  flex proj justify-around'>
+            <div  >
               <p className='lacHead'>LACOSTE </p>
               <p className='lacProject mt-14'>A full stack ecommerce store</p>
               <p className='lacProject'>Made with <span className='boldskill'>Nextjs</span> in the frontends</p>
               <p className='lacProject'>Made with <span className='boldskill'>Nextjs</span> in the backend</p>
               <p className='lacProject'>utilizes <span className='boldskill'>mongodb</span> as a database system</p>
               <div className='flex mt-4 cursor-pointer'>
-                <p className='lacProject view'>VIEW MORE</p>
+                <p  className='lacProject view' >VIEW MORE</p>
                 <img className='forward' src='arrow2.png' />
               </div>
             </div>
@@ -87,7 +92,8 @@ export default function LandingPage() {
               <img className='lac' src='lac.png' />
             </div>
           </div>
-          <div className=' flex proj justify-around project2'>
+          <div onClick={() => {
+                    router.push('/project2')}} className=' flex proj justify-around project2'>
             <div >
               <p className='lacHead'>BLACKLIST </p>
               <p className='lacProject mt-14'>Alternate database of chronic defaulters </p>
@@ -97,7 +103,7 @@ export default function LandingPage() {
               <p className='lacProject'> components.i used <span className='boldskill'>redux toolkit</span> as </p>
               <p className='lacProject'>a state management system</p>
               <div className='flex mt-4 cursor-pointer'>
-                <p className='lacProject view'>VIEW MORE</p>
+                <p  className='lacProject view'>VIEW MORE</p>
                 <img className='forward' src='arrow2.png' />
               </div>
             </div>

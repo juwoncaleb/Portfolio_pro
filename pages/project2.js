@@ -2,7 +2,7 @@ import React from 'react'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
 
-export default function project1() {
+export default function project2() {
     return (
         <div className='projcontent'>
             <Header />
@@ -18,9 +18,9 @@ export default function project1() {
                 <p className='project_text mt-10'> I used Reactjs as my primary tool to create reusable components and styled with tailwind css. I lead a team of junior frontend engineers to work on the admin part of the user profile </p>
 
             </div>
-            <div className='flex justify-center livelinks'>
-                <p className='mr-20'>GITHUB</p>
-                <p>LIVE LINK</p>
+            <div className='flex justify-center  livelinks'>
+                <a className='mr-10' >GITHUB</a>
+                <a href='https://blacklistng.com/' >LIVE LINK</a>
             </div>
         </div>
     )
