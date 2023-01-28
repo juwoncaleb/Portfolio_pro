@@ -44,7 +44,7 @@ export default function LandingPage() {
           <p className='tag_1_text '>Trashing my lil cousin in FIFA or at the gym training people </p>
           
           <div className='mt-14 more'>
-            <p className='tag_1_text mt-8 cursor-pointer'>More About me </p>
+            <p className='tag_1_text mt-8 cursor-pointer'><a href="https://drive.google.com/file/d/1MYRG5pMc2iUsX47mpABeOM6MHFFqqKyv/view?usp=sharing">VIEW RESUME</a> </p>
             <hr className='line cursor-pointer' />
           </div>
 
