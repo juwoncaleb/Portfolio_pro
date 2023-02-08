@@ -23,8 +23,8 @@ export default function project1() {
 
             </div>
             <div className='flex justify-center livelinks '>
-                <a className='mr-10' href='https://github.com/juwoncaleb/store' >GITHUB</a>
-                <a href='https://lacostestore.vercel.app/' >LIVE LINK</a>
+                <a className='mr-10' href='https://github.com/juwoncaleb/ECOMMERCE-STORE' >GITHUB</a>
+                <a href='https://lacostestores.vercel.app/' >LIVE LINK</a>
             </div>
         </div>
     )
